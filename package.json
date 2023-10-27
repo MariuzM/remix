@@ -6,6 +6,7 @@
   "scripts": {
     "d": "remix dev --manual",
     "b": "remix build",
+    "bs": "bun run b && bun run start",
     "dev": "bun run d",
     "build": "bun run b",
     "start": "remix-serve ./build/index.js",
