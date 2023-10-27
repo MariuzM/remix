@@ -12,9 +12,11 @@ export const Nav = () => {
     >
       <a href="/">Home</a>
       <a href="/about">About</a>
+      <a href="/blog">Blog</a>
 
       <Link to="/">Home (client rendered)</Link>
       <Link to="/about">About (client rendered)</Link>
+      <Link to="/blog">Blog (client rendered)</Link>
     </nav>
   );
 };
