@@ -1,6 +1,15 @@
+!.env.example
+*.log
 .DS_Store
+.cache
+.data
 .env
+.env.*
+.fleet
+.idea
+.output
 /.cache
 /build
-/public/build
+dist
+logs
 node_modules
